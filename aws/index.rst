@@ -32,6 +32,7 @@ AWS Services
 
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
 
    ec2/index

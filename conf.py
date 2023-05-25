@@ -32,9 +32,24 @@ intersphinx_mapping = {
 
 #  -- Projects that will share this configuration file -----------------------------
 multiproject_projects = {
-    "aws": { "use_config_file": False },
-    "azure": { "use_config_file": False },
-    "google": { "use_config_file": False },
+    "aws": {
+        "use_config_file": False,
+        "config": {
+            "project": "Public Cloud - AWS",
+        }
+    },
+    "azure": { 
+        "use_config_file": False,
+        "config": {
+            "project": "Public Cloud - Azure",
+        }
+    },
+    "google": {
+        "use_config_file": False,
+        "config": {
+            "project": "Public Cloud - GCP",
+        }
+    },
     "common-content": { "use_config_file": False }
 }
 

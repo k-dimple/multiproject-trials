@@ -8,7 +8,7 @@ import datetime
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Public Cloud - AWS'
+project = 'Public Cloud - Azure'
 author = 'Canonical Group Ltd'
 copyright = "%s, %s" % (datetime.date.today().year, author)
 release = '1.0'
