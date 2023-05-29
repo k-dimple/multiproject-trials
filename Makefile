@@ -3,10 +3,10 @@
 
 # You can set these variables from the command line, and also
 # from the environment for the first two.
-PROJECT	      ?= 
+PROJECT		  ?=
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
-SOURCEDIR     = .
+SOURCEDIR     = $(PROJECT)
 BUILDDIR      = _build/$(PROJECT)
 VENV          = .sphinx/venv/bin/activate
 
