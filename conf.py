@@ -38,10 +38,7 @@ multiproject_projects = {
         }
     },
     "azure": { 
-        "use_config_file": False,
-        "config": {
-            "project": "Public Cloud - Azure",
-        }
+        "use_config_file": False
     },
     "google": {
         "use_config_file": False,
@@ -49,12 +46,7 @@ multiproject_projects = {
             "project": "Public Cloud - GCP",
         }
     },
-    "ibm": {
-        "use_config_file": False,
-        "config": {
-            "project": "Public Cloud - IBM",
-        }
-    },
+    "ibm": {},
     "oracle": {
         "use_config_file": False,
         "config": {
