@@ -16,6 +16,7 @@ copyright = "%s, %s" % (datetime.date.today().year, author)
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
+    'multiproject',
     'sphinx_design',
     'sphinx_tabs.tabs',
     'sphinx_reredirects',
@@ -26,6 +27,47 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.sphinx', 'readme.rst']
 intersphinx_mapping = {
     'public-cloud': ('https://canonical-public-cloud.readthedocs-hosted.com/en/latest/', None),
     'public-cloud-docs': ('https://canonical-public-cloud-docs.readthedocs-hosted.com/en/latest/', None)
+}
+
+#  -- Projects that will share this configuration file -----------------------------
+multiproject_projects = {
+    "aws": {
+        "use_config_file": False,
+        "config": {
+            "project": "Public Cloud - AWS",
+        }
+    },
+    "azure": { 
+        "use_config_file": False,
+        "config": {
+            "project": "Public Cloud - Azure",
+        }
+    },
+    "google": {
+        "use_config_file": False,
+        "config": {
+            "project": "Public Cloud - GCP",
+        }
+    },
+    "ibm": {
+        "use_config_file": False,
+        "config": {
+            "project": "Public Cloud - IBM",
+        }
+    },
+    "oracle": {
+        "use_config_file": False,
+        "config": {
+            "project": "Public Cloud - Orcale",
+        }
+    },
+    "oci": {
+        "use_config_file": False,
+        "config": {
+            "project": "Public Cloud - OCI ",
+        }
+    },
+    "common-content": { "use_config_file": False }
 }
 
 # -- Options for HTML output -------------------------------------------------
