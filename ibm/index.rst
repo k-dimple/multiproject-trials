@@ -5,7 +5,11 @@ Ubuntu is the operating system of choice for next-generation, cloud workloads.
 Canonical and the Ubuntu community work together with IBM to ensure that Ubuntu 
 works seamlessly across IBM platforms, including IBM Z and LinuxONE, IBM Power Systems and the IBM Cloud.
 
----------
+Check public-cloud: :ref:`public-cloud:home` !!
+
+Trial include of readme.rst from common-content !!!
+
+.. include:: ../common-content/readme.rst
 
 IBM Services
 ---------------------
